@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.page {
+	height: calc(100vh - 20px);
+	background-size: cover;
+	margin: 10px;
+}
+
+/* CENTRA CONTENUTO CON POSITION/TRANSFORM */
+.page {
+	position: relative;
+}
+.page h2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* CENTRA CONTENUTO CON FLEX */
+/* .page {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.page h2 {
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-size: 50px;
+	color: white;
+}
+
+#roma {
+	background-image: url(https://static.vecteezy.com/system/resources/thumbnails/001/289/595/original/italy-summer-day-most-famous-rome-colosseum-tourist-crowded-panorama-4k-time-lapse.jpg);
+}
+
+#napoli {
+	background-image: url(https://cdn.blastness.info/media/869/LHP-NAPOLI-PALACE-/thumbs/full/1600-napoli1.jpg);
+}
+
+#milano {
+	background-image: url(http://www.youparti.com/nightlife_2016/nightlife/wp-content/uploads/2018/10/Milano.jpg);
+}
